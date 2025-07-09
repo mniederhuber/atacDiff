@@ -18,7 +18,7 @@ A simple R pipeline for differential analysis of ATAC-seq peak data using DESeq2
 ## Usage
 
 ```
-Rscript src/main.R [path_to_params_file]
+Rscript src/main.R config/R.yaml
 ```
 
 ## Input
