@@ -56,10 +56,10 @@ control_group: 'untreated'
 seed: 1234
 ```
 
-`chromosomes` -- sets which chromomes to *keep* -- note that there is not automated check to ensure seqname equivalency between params file and peak ranges!! 
-`qvalue_percentile` -- Macs2 qValue percentile, peaks with qValue below threshold will be filtered out, filter is on per sample basis
-`control_group` -- defines a grouping variable to use as control for `DESeq2`
-`nthreads` -- set the number of threads to use for featureCounts ** make sure to also request enough threads/cpus if running script on shared resources **
+- `chromosomes` -- sets which chromomes to *keep* -- note that there is not automated check to ensure seqname equivalency between params file and peak ranges!! 
+- `qvalue_percentile` -- Macs2 qValue percentile, peaks with qValue below threshold will be filtered out, filter is on per sample basis
+- `control_group` -- defines a grouping variable to use as control for `DESeq2`
+- `nthreads` -- set the number of threads to use for featureCounts ** make sure to also request enough threads/cpus if running script on shared resources **
 
 ## Output
 
