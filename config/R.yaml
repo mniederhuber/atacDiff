@@ -1,0 +1,9 @@
+sample_table: 'sample_table.csv'
+outdir: 'rOut'
+# chromosomes must be the same seqname type (chr1 or 1) as the seqnames in reference genome used to generate peak calls
+# currently there is no automated check for seqname equivalency - and mismatch will drop peaks
+chromosomes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, X, Y]
+qvalue_percentile: 0.1
+nthreads: 12
+control_group: untreated
+seed: 12345
